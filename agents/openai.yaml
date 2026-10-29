@@ -1,0 +1,6 @@
+interface:
+  display_name: "通用 PPT 制作"
+  short_description: "先审阅纯上屏文字稿，再调整完整 HTML 预览，确认后制作可编辑 PPT"
+  default_prompt: "使用 $ppt-production，先交付只含逐页实际标题与上屏文字的 Markdown 稿，确认后制作完整 HTML 预览供调整，预览确认后再生成可编辑 PPT；仅采用当前项目材料与授权的视觉参考。"
+policy:
+  allow_implicit_invocation: true
